@@ -1,0 +1,133 @@
+$`laufkont = status`
+                                               
+ 1 : no checking account                       
+ 2 : ... < 0 DM                                
+ 3 : 0<= ... < 200 DM                          
+ 4 : ... >= 200 DM / salary for at least 1 year
+
+$`laufzeit = duration`
+     
+
+$`moral = credit_history`
+                                                
+ 3 : delay in paying off in the past            
+ 4 : critical account/other credits elsewhere   
+ 0 : no credits taken/all credits paid back duly
+ 2 : existing credits paid back duly till now   
+ 1 : all credits at this bank paid back duly    
+
+$`verw = purpose`
+                        
+ 10 : others             
+ 0 : car (new)          
+ 1 : car (used)         
+ 2 : furniture/equipment
+ 3 : radio/television   
+ 4 : domestic appliances
+ 5 : repairs            
+ 6 : education          
+ 7 : vacation           
+ 8 : retraining         
+ 9 : business          
+
+$`hoehe = amount`
+     
+
+$`sparkont = savings`
+                               
+ 5 : unknown/no savings account
+ 1 : ... <  100 DM             
+ 2 : 100 <= ... <  500 DM      
+ 3 : 500 <= ... < 1000 DM      
+ 4 : ... >= 1000 DM            
+
+$`beszeit = employment_duration`
+                     
+ 1 : unemployed      
+ 2 : < 1 yr          
+ 3 : 1 <= ... < 4 yrs
+ 4 : 4 <= ... < 7 yrs
+ 5 : >= 7 yrs        
+
+$`rate = installment_rate`
+                   
+ 1 : >= 35         
+ 2 : 25 <= ... < 35
+ 3 : 20 <= ... < 25
+ 4 : < 20          
+
+$`famges = personal_status_sex`
+                                         
+ 1 : male : divorced/separated           
+ 2 : female : non-single or male : single
+ 3 : male : married/widowed              
+ 4 : female : single                     
+
+$`buerge = other_debtors`
+                 
+ 1 : none        
+ 2 : co-applicant
+ 3 : guarantor   
+
+$`wohnzeit = present_residence`
+                     
+ 1 : < 1 yr          
+ 2 : 1 <= ... < 4 yrs
+ 3 : 4 <= ... < 7 yrs
+ 4 : >= 7 yrs        
+
+$`verm = property`
+                                              
+ 4 : unknown / no property                    
+ 3 : car or other                             
+ 2 : building soc. savings agr./life insurance
+ 1 : real estate                              
+
+$`alter = age`
+     
+
+$`weitkred = other_installment_plans`
+           
+ 1 : bank  
+ 2 : stores
+ 3 : none  
+
+$`wohn = housing`
+             
+ 3 : for free
+ 1 : rent    
+ 2 : own     
+
+$`bishkred = number_credits`
+         
+ 1 : 1   
+ 2 : 2-3 
+ 3 : 4-5 
+ 4 : >= 6
+
+$`beruf = job`
+                                               
+ 1 : unemployed/unskilled - non-resident       
+ 2 : unskilled - resident                      
+ 3 : skilled employee/official                 
+ 4 : manager/self-empl./highly qualif. employee
+
+$`pers = people_liable`
+              
+ 1 : 3 or more
+ 2 : 0 to 2   
+
+$`telef = telephone`
+                              
+ 1 : no                       
+ 2 : yes (under customer name)
+
+$`gastarb = foreign_worker`
+        
+ 1 : yes
+ 2 : no 
+
+$`kredit = credit_risk`
+         
+ 0 : bad 
+ 1 : good
